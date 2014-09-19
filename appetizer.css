@@ -130,7 +130,7 @@ html body section.content {
   display: table;
   background-size: cover;
   background-repeat: no-repeat;
-    background-image: url('images/huaracheback.jpg');
+  background-image: url('images/congruent.png');
 
 }
 html body section.content label {
@@ -151,4 +151,3 @@ html body section.content h1 {
   letter-spacing: 1px;
   color: #fff;
 }
-
