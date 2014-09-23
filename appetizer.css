@@ -151,3 +151,8 @@ html body section.content h1 {
   letter-spacing: 1px;
   color: #fff;
 }
+@media screen and(max-width:640px){
+ .content{
+  width: 100%;
+ }
+}
