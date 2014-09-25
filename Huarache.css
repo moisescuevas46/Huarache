@@ -154,9 +154,6 @@ html body section.content h1 {
   color: #fff;
 }
 
-@media screen and(max-width:650px){
-}
-@media(max-width: 310px){}
 header{
   border: 5px solid;
   text-decoration: underline;
@@ -178,4 +175,39 @@ display: block;
 margin-left: 60%;
 margin-top: 0%;
 vertical-align: right;
+}
+@media screen and(max-width:650px){
+}
+@media(max-width: 310px){
+header{
+  border: 5px solid;
+  text-decoration: underline;
+}
+h1{
+  text-align: center;
+}
+.hpic{
+  background-image: url('images/huaracheback.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 25px;
+}
+
+.p {
+display: block;
+margin-left: 60%;
+margin-top: 0%;
+vertical-align: right;
+}
+body{
+    background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url('images/Fall.jpg');
+  width: 100%;
+  height: 100%;
+}
+h4{
+
+}
+  /*END OF MOBILE FRIENDLY*/
 }
