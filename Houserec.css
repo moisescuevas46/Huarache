@@ -3,8 +3,11 @@ body{
 }
 
 body {
-  background: #ddd;
+  background-image: url('images/hrecognition.jpg');
   font: 14px/1.6em sans-serif;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 25px;
 }
 
 .ribbon {
@@ -290,19 +293,28 @@ html body section.content h1 {
 @media screen and(max-width:650px){
 }
 @media(max-width: 310px){
-html body section.content {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  min-height: 100%;
-  min-width: 100%;
-  display: table;
-  background-image: url('images/tweed.jpg');
+body {
+  background-image: url('images/hrecognition.jpg');
+  font: 14px/1.6em sans-serif;
   background-size: cover;
   background-repeat: no-repeat;
-
+  margin-top: 25px;
+}
+.ribbon {
+  width: 400px;
+  height: 60px;
+  margin: 100px 100px 0px 100px;
+  position: relative;
+  color: #fff;
+  font: 28px/60px sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  background: #9FA2A6;
+  
+  -webkit-animation: main 250ms;
+  -moz-animation: main 250ms;
+  -ms-animation: main 250ms;
+  animation: main 250ms;
 }
 }
 

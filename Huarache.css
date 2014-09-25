@@ -176,6 +176,11 @@ margin-left: 60%;
 margin-top: 0%;
 vertical-align: right;
 }
+@media all.and (max-width: 1200px){
+body{
+  
+}
+  }
 @media screen and(max-width:650px){
 }
 @media(max-width: 310px){
@@ -207,7 +212,6 @@ body{
   height: 100%;
 }
 h4{
-
 }
   /*END OF MOBILE FRIENDLY*/
 }

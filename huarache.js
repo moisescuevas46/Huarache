@@ -5,3 +5,4 @@ $('.ribbon').on('click', function() {
   self.before(newone);
   $("." + self.attr("class") + ":last").remove();
 });
+
