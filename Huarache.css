@@ -176,13 +176,18 @@ margin-left: 60%;
 margin-top: 0%;
 vertical-align: right;
 }
+div{
+
+}
 @media all.and (max-width: 1200px){
 body{
-  
+
+}
+div{
+
 }
   }
-@media screen and(max-width:650px){
-}
+
 @media(max-width: 310px){
 header{
   border: 5px solid;
@@ -193,6 +198,8 @@ h1{
 }
 .hpic{
   background-image: url('images/huaracheback.jpg');
+  width: 100%;
+  height: 100%;
   background-size: cover;
   background-repeat: no-repeat;
   margin-top: 25px;
@@ -202,7 +209,7 @@ h1{
 display: block;
 margin-left: 60%;
 margin-top: 0%;
-vertical-align: right;
+vertical-align: right;d4x
 }
 body{
     background-size: cover;
@@ -210,8 +217,10 @@ body{
   background-image: url('images/Fall.jpg');
   width: 100%;
   height: 100%;
+  font-size: 1.5;
 }
-h4{
+div{
+background-image: url('images/Fall.jpg');
 }
   /*END OF MOBILE FRIENDLY*/
 }
