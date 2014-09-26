@@ -2,87 +2,6 @@ body{
 	background-image:url('images/tweed.png');
 }
 
-body {
-  background-image: url('images/hrecognition.jpg');
-  font: 14px/1.6em sans-serif;
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin-top: 25px;
-}
-
-.ribbon {
-  width: 400px;
-  height: 60px;
-  margin: 100px auto 0px;
-  position: relative;
-  color: #fff;
-  font: 28px/60px sans-serif;
-  text-align: center;
-  text-transform: uppercase;
-  background: #9FA2A6;
-  
-  -webkit-animation: main 250ms;
-  -moz-animation: main 250ms;
-  -ms-animation: main 250ms;
-  animation: main 250ms;
-}
-
-.ribbon i {
-  position: absolute;
-}
-
-.ribbon i:first-child, .ribbon i:nth-child(2) {
-  position: absolute;
-  left: -20px;
-  bottom: -20px;
-  z-index: -1;
-  border: 20px solid transparent;
-  border-right-color: #9FA2A6;
-  
-  -webkit-animation: edge 500ms;
-  -moz-animation: edge 500ms;
-  -ms-animation: edge 500ms;
-  animation: edge 500ms;
-}
-
-.ribbon i:nth-child(2) {
-  left: auto;
-  right: -20px;
-  border-right-color: transparent;
-  border-left-color: #9FA2A6;
-}
-
-.ribbon i:nth-child(3), .ribbon i:last-child {
-  width: 20px;
-  bottom: -20px;
-  left: -60px;
-  z-index: -2;
-  border: 30px solid #56B320;
-  border-left-color: transparent;
-  
-  -webkit-animation: back 600ms;
-  -moz-animation: back 600ms;
-  -ms-animation: back 600ms;
-  animation: back 600ms;
-  
-  -webkit-transform-origin: 100% 0;
-  -moz-transform-origin: 100% 0;
-  -ms-transform-origin: 100% 0;
-  transform-origin: 100% 0;
-}
-
-.ribbon i:last-child {
-  bottom: -20px;
-  left: auto;
-  right: -60px;
-  border: 30px solid #B34724;
-  border-right-color: transparent;
-
-  -webkit-transform-origin: 0 0;
-  -moz-transform-origin: 0 0;
-  -ms-transform-origin: 0 0;
-  transform-origin: 0 0;
-}
 
 p {
   text-align: center;
@@ -266,10 +185,6 @@ html body section.content {
   min-height: 100%;
   min-width: 100%;
   display: table;
-  background-image: url('images/tweed.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-
 }
 html body section.content label {
   position: fixed;
@@ -293,13 +208,6 @@ html body section.content h1 {
 @media screen and(max-width:650px){
 }
 @media(max-width: 310px){
-body {
-  background-image: url('images/hrecognition.jpg');
-  font: 14px/1.6em sans-serif;
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin-top: 25px;
-}
 .ribbon {
   width: 400px;
   height: 60px;
@@ -318,3 +226,13 @@ body {
 }
 }
 
+
+section{
+
+}
+@media(max-width: 310px){
+section{
+  
+}
+/*END OF MOBILE RESPONSIVE*/
+}
