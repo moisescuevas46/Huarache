@@ -6,8 +6,8 @@ body{
     background-size: cover;
   background-repeat: no-repeat;
   background-image: url('images/Fall.jpg');
-  width: 100%;
-  height: 125%;
+  width: auto;
+  height: auto;
 }
 html {
   min-height: 100%;
@@ -157,6 +157,7 @@ html body section.content h1 {
 header{
   border: 5px solid;
   text-decoration: underline;
+
 }
 h1{
   text-align: center;
@@ -209,7 +210,7 @@ h1{
 display: block;
 margin-left: 60%;
 margin-top: 0%;
-vertical-align: right;d4x
+vertical-align: right;
 }
 body{
     background-size: cover;
