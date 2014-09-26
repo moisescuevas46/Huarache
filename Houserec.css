@@ -205,34 +205,34 @@ html body section.content h1 {
   color: #fff;
 }
 
-@media screen and(max-width:650px){
+.write{
+  font-size: 14;
 }
-@media(max-width: 310px){
-.ribbon {
-  width: 400px;
-  height: 60px;
-  margin: 100px 100px 0px 100px;
-  position: relative;
-  color: #fff;
-  font: 28px/60px sans-serif;
+header{
+  border: 5px solid;
+  border-color: #B34724;
+  text-decoration: underline;
+}
+h1{
   text-align: center;
-  text-transform: uppercase;
-  background: #9FA2A6;
-  
-  -webkit-animation: main 250ms;
-  -moz-animation: main 250ms;
-  -ms-animation: main 250ms;
-  animation: main 250ms;
+}
+@media screen and(max-width:650px){
+.write{
+  font-size: 1.5;
+  color: #B34724;
 }
 }
-
-
-section{
-
+@media(max-width: 320px){
+.write{
+  font-size: 1.5;
 }
-@media(max-width: 310px){
-section{
-  
+header{
+  border: 5px solid;
+  border-color: #B34724;
+  text-decoration: underline;
+}
+h1{
+  text-align: center;
 }
 /*END OF MOBILE RESPONSIVE*/
 }
