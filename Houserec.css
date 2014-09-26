@@ -216,6 +216,10 @@ header{
 h1{
   text-align: center;
 }
+.uanto{
+  color:#B34724;
+  
+}
 @media screen and(max-width:650px){
 .write{
   font-size: 1.5;

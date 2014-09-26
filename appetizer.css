@@ -148,8 +148,13 @@ html body section.content h1 {
   letter-spacing: 1px;
   color: #fff;
 }
+div{
+  width:100%;
+  height: 100%;
+}
 @media screen and(max-width:640px){
- .content{
-  width: 100%;
- }
+div{
+  width:100%;
+  height: 100%;
+}
 }
